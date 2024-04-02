@@ -1,2 +1,11 @@
 target/
 Cargo.lock
+
+./to_do/core/target/
+./to_do/core/Cargo.lock
+
+./to_do/dal/target/
+./to_do/dal/Cargo.lock
+
+./to_do/networking/actix_server/target/
+./to_do/networking/actix_server/Cargo.lock
