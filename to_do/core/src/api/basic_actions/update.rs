@@ -3,7 +3,7 @@ use dal::json_file::{
     save_all
 };
 use crate::structs::ToDoItem;
-use glue::errors::{
+use nanoservices_utils::errors::{
     NanoServiceError,
     NanoServiceErrorStatus
 };

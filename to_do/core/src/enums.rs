@@ -1,6 +1,6 @@
 use serde::{Serialize, Deserialize};
 use std::fmt;
-use glue::errors::{
+use nanoservices_utils::errors::{
     NanoServiceError,
     NanoServiceErrorStatus
 };

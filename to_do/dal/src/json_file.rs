@@ -3,11 +3,11 @@ use std::collections::HashMap;
 use std::env;
 use std::fs::{OpenOptions, File};
 use std::io::{Read, Write};
-use glue::errors::{
+use nanoservices_utils::errors::{
     NanoServiceError,
     NanoServiceErrorStatus
 };
-use glue::safe_eject;
+use nanoservices_utils::safe_eject;
 
 
 fn get_handle() -> Result<File, NanoServiceError> {

@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 dal = { path = "../dal", features = ["json-file"] }
 serde = { version = "1.0.197", features = ["derive"] }
-glue = { path = "../../../glue"}
+nanoservices-utils = "0.1.0"

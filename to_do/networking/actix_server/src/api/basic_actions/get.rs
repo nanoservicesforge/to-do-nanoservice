@@ -6,7 +6,7 @@ use actix_web::{
     HttpResponse,
     HttpRequest
 };
-use glue::errors::{
+use nanoservices_utils::errors::{
     NanoServiceError,
     NanoServiceErrorStatus
 };

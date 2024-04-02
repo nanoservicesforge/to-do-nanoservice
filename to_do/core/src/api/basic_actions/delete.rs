@@ -1,6 +1,6 @@
 use dal::json_file::delete_one;
 use crate::structs::ToDoItem;
-use glue::errors::NanoServiceError;
+use nanoservices_utils::errors::NanoServiceError;
 
 
 pub async fn delete(id: &str) -> Result<(), NanoServiceError> {
